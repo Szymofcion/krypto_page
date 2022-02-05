@@ -331,6 +331,36 @@ h1.company-name {
   grid-column: 1/-1;
 }
 
+@media (min-width: 768px) {
+  .cards__box {
+    padding: 10em 2em;
+  }
+  .cards__card--one {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+  }
+  .cards__card--two {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 3;
+    grid-column: 4/7;
+  }
+  .cards__card--three {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 7;
+    -ms-grid-column-span: 3;
+    grid-column: 7/10;
+  }
+}
+
 @media (min-width: 992px) {
   h1.company-name {
     font-size: 6rem;
