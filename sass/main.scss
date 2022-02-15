@@ -319,6 +319,44 @@ h1.company-name {
   
 }
 
+//newsletter
+
+.newsletter{
+  padding: 8em 2em;
+  background-color: $red;
+  text-align: center;
+  &__text{
+    padding: 1em;
+    margin-bottom: 1em;
+    font-size: 4rem;
+    font-weight: 400;
+  }
+  &__form{
+    input{
+      margin-bottom: 1em;
+      padding: 1em;
+      width: 100%;
+      background-color: $white;
+      border: 1px solid transparent;
+
+    }
+    button{
+      padding: 1em;
+      border: 1px solid $gold;
+      font-weight: bold;
+      background-color: $red;
+      color: $white;
+      cursor: pointer;
+      transition: background-color .3, color .3s;
+      &:hover{
+        color: $red;
+        background-color: $gold
+      }
+    }
+  }
+}
+
+
 @import "./small";
 @import "./medium";
 @import "./large";
