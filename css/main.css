@@ -174,7 +174,7 @@ h1.company-name {
   background-position: center;
   -webkit-filter: sepia();
           filter: sepia();
-  background-image: url(/img/bitcoin-g31cf13317_640.jpg);
+  background-image: url(./img/bitcoin-g31cf13317_640.jpg);
 }
 
 .header__shadow {
