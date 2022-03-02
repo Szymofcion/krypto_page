@@ -116,6 +116,7 @@ h1.company-name {
 
 .hamburger {
   position: absolute;
+  position: fixed;
   top: 3em;
   left: 1em;
   transform: translateY(-50%);
@@ -143,9 +144,11 @@ h1.company-name {
     z-index: 10;
     transform: translateX(-102%);
     transition: transform 0.3s;
+    
 
     &--active {
       transform: translateX(0);
+     
     }
   }
   &-desktop {

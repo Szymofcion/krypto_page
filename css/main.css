@@ -208,6 +208,7 @@ h1.company-name {
 
 .hamburger {
   position: absolute;
+  position: fixed;
   top: 3em;
   left: 1em;
   -webkit-transform: translateY(-50%);
